@@ -2,7 +2,17 @@ import streamlit as st
 import numpy as np
 from sklearn.linear_model import LinearRegression
 
-st.title('Prediksi Jarak Tempuh Kendaraan')
+st.title('📈Prediksi Jarak Tempuh Kendaraan')
+
+st.markdown("""
+    ### 🧠 Tentang Model Prediksi
+
+    Model yang digunakan untuk memprediksi jarak tempuh pada kendaraan adalah **Regresi Linear (Linear Regression)**.  
+            
+    Model ini bekerja dengan mengukur seberapa besar pengaruh masing-masing faktor (seperti waktu tempuh, kecepatan rata rata, jenis jalan, kondisi cuaca, kapasitas penumpang, dan umur kendaraan) berdasarkan data yang diinput.
+
+    Semakin besar nilai koefisien dari suatu faktor, maka faktor tersebut cenderung memiliki pengaruh lebih besar terhadap jarak tempuh pada kendaraan.
+    """)
 
 # Input fitur
 waktu_tempuh = st.number_input('Waktu Tempuh (jam)', min_value=0.0, max_value=24.0, value=1.0)
