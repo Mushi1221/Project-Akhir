@@ -1,4 +1,4 @@
 Streamlit
 numpy
-sklearn.linear
+scikit-learn.linear
 pandas
