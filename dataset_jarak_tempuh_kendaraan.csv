@@ -1,0 +1,13 @@
+waktu_tempuh;kecepatan;jenis_jalan;cuaca;kapasitas_penumpang;umur_kendaraan;jarak_tempuh
+1;60;Tol;Cerah;4;3;60
+2;80;Tol;Cerah;2;1;160
+1;40;Jalan Raya;Hujan;4;5;40
+2;50;Jalan Raya;Berkabut;3;7;100
+1;30;Jalan Kota;Hujan;2;10;30
+2;40;Jalan Kota;Berkabut;5;12;80
+15;70;Tol;Hujan;4;2;105
+2;90;Tol;Cerah;3;1;180
+12;55;Jalan Raya;Cerah;4;4;66
+18;65;Jalan Raya;Hujan;2;6;117
+2;100;Tol;Cerah;1;2;200
+1;80;Tol;Berkabut;5;8;75
